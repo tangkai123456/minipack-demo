@@ -1,0 +1,21 @@
+{
+  "name": "minipack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/parser": "^7.0.0-beta.51",
+    "@babel/traverse": "^7.0.0-beta.51",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-minify": "^0.4.3",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0"
+  }
+}

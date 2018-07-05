@@ -1,0 +1,8 @@
+{
+  "id": 0,
+  "filename": "./entry.js",
+  "dependencies": [
+    "./message"
+  ],
+  "code": "\"use strict\";\n\nvar _message = require(\"./message\");\n\nvar _message2 = _interopRequireDefault(_message);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nconsole.log(_message2.default);"
+}
