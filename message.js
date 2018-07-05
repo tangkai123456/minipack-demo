@@ -1,6 +1,3 @@
-import _ from 'lodash';
-import { name } from './name';
-
-console.log(222, _.isEmpty([1]));
+import { name } from './name.js';
 
 export default `hello ${name}`;
